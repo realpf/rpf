@@ -1,0 +1,138 @@
+/* custom styles */
+@import url("/theme/css/main.css");
+
+/*a:link    { color : blue ; text-decoration : none ;      }
+a:hover   { color : blue ; text-decoration : underline ; background-color: white}
+a:visited { color : blue ;                               }*/
+
+body {
+   background: linear-gradient(135deg, #feffff 0%,#ddf1f9 35%,#a0d8ef 100%);
+}
+
+#banner h1 a:link, #banner h1 a:visited {
+   color: #0a77d5;
+   font-size: 1.7em;
+   font-family: "Times"
+   margin-bottom: 20px;
+}
+
+nav li { font-weight: bold; display: inline; margin: 0; padding: 3px 1em 3px 1em;}
+nav ul { padding: 9px 15px 9px 25px }
+nav   {
+   border-radius: 9px;
+
+   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#d0e4f7+0,73b1e7+24,0a77d5+50,539fe1+79,87bcea+100;Blue+Pipe+%231 */
+   background: #d0e4f7; /* Old browsers */
+   background: -moz-linear-gradient(-45deg,  #d0e4f7 0%, #73b1e7 24%, #0a77d5 50%, #539fe1 79%, #87bcea 100%); /* FF3.6-15 */
+   background: -webkit-linear-gradient(-45deg,  #d0e4f7 0%,#73b1e7 24%,#0a77d5 50%,#539fe1 79%,#87bcea 100%); /* Chrome10-25,Safari5.1-6 */
+   background: linear-gradient(135deg,  #d0e4f7 0%,#73b1e7 24%,#0a77d5 50%,#539fe1 79%,#87bcea 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d0e4f7', endColorstr='#87bcea',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
+h2 {
+   font-size: 0.8em;
+   font-weight: normal;
+}
+
+#post-list {
+   list-style: none; margin: 0;
+}
+
+li:last-child .hentry, .hentry {
+   margin: 5px 35px 77px 0px;
+   padding: 10px;
+   background: white;
+   border-radius: 15px;
+}
+
+.entry-title {
+   font-size: 2em;
+   font-weight: bold;
+   font-family: "Times";
+   margin-bottom: 0px;
+}
+
+.entry-title a {
+   color: blue;
+   text-decoration: none;
+   text-shadow: -2px -2px 3px rgba(150, 150, 150, 1);
+}
+
+.post-info cite {
+   font-style: italic;
+}
+
+.post-info {
+   font-weight: normal;
+   font-family: italic;
+   color: #0a77d5;
+
+   float: none;
+   margin: -2px 0px 10px 0px;
+   padding: 0px;
+   display: block;
+}
+
+.entry-content {
+   margin: 10px 30px 10px 20px;
+}
+
+h1>a {
+   color: blue ;
+   text-decoration: none;
+}
+
+
+blockquote {
+   font-size: 1em;
+   font-family: "Sans";
+
+   border-radius: 10px;
+   padding: 33px;
+
+   margin: 0px 0px 30px 0px;
+
+   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffff88+0,ffff88+100;Yellow+Flat+%231 */
+   background: #ffff88; /* Old browsers */
+   background: -moz-linear-gradient(-45deg,  #ffff88 0%, #ffff88 100%); /* FF3.6-15 */
+   background: -webkit-linear-gradient(-45deg,  #ffff88 0%,#ffff88 100%); /* Chrome10-25,Safari5.1-6 */
+   background: linear-gradient(135deg,  #ffff88 0%,#ffff88 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffff88', endColorstr='#ffff88',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+   -webkit-box-shadow: 7px 9px 16px -4px rgba(0,0,0,0.73);
+   -moz-box-shadow: 7px 9px 16px -4px rgba(0,0,0,0.73);
+   box-shadow: 7px 9px 16px -4px linear-gradient(135deg,  #ffff88 0%,#ffff88 100%);
+   /* rgba(0,0,0,0.73); */
+}
+
+blockquote>footer {
+   padding: 8px 0px 0px 0px;
+   text-indent: 1em;
+}
+
+blockquote>footer>cite:first-child::before {
+   content: "— ";
+}
+
+blockquote>footer>cite:first-child {
+   font-weight: normal;
+   font-size: 0.8em;
+   /* color: blue; */
+}
+
+blockquote>footer>cite:nth-child(2) {
+   display: block;
+   font-family: italic;
+   color: blue;
+   margin-left: 1.5em;
+   margin-right: 1em;
+   font-size: 0.8em;
+}
+
+blockquote>footer>cite:nth-child(2)>a::before {
+   content: "Source: ";
+}
+
+#about {
+   font-size: 0.8em;
+   text-align: right;
+}
